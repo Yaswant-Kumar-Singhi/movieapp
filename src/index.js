@@ -21,9 +21,9 @@ store.dispatch({
 console.log('AFTER STATE',store.getState())
 */
 ReactDOM.render(
-  <React.StrictMode>
-    <App store={store}/>
-  </React.StrictMode>,
+  
+    <App store={store}/>,
+  
   document.getElementById('root')
 );
 
